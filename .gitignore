@@ -1,2 +1,3 @@
-**/Variaveis/bin
-**/Variaveis/obj
+**/**/bin
+**/**/obj
+**/**/.vscode
