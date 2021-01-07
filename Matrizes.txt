@@ -1,0 +1,6 @@
+double[,] = new double [2,3];  // Cria matriz com 2 linhas e 3 colunas.
+
+Length     // Dimensão da matriz
+Length(0)  // Tamanho da primeira dimensão
+Length(1)  // Tamanho da segunda dimensão
+Rank  // Quantidade de linhas

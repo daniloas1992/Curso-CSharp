@@ -1,0 +1,29 @@
+/****** Quando utiliza "ref" precisa inicializar a variável ***********/
+
+
+int a = 10;
+
+Triplicar(ref a);
+
+
+public static void Triplicar(ref int x){
+	x = x * 3;
+}
+
+
+
+
+
+
+
+
+/****** Quando utiliza "out" não precisa inicializar a variável de saída ***********/
+
+int a = 10;
+int resultado;
+
+Triplicar(a, out resultado);
+
+public void Triplicar(int x, out int result) {
+	result = x * 3;
+}

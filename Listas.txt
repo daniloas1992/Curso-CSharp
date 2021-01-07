@@ -1,0 +1,29 @@
+System.Collection.Generic;
+
+
+List<string> lista1 = new List<string>();
+
+List<string> lista2 = new List<string> {"Nome", "Cidade"};
+
+
+
+Métodos:
+
+Add
+Insert
+Count
+Find      // Tem como parâmetro a assinatura de uma função, ou pode por o corpo da função, pode utilizar função lambda
+FindLast  // Tem como parâmetro a assinatura de uma função, ou pode por o corpo da função, pode utilizar função lambda
+FindIndex // Tem como parâmetro a assinatura de uma função, ou pode por o corpo da função, pode utilizar função lambda
+FindLastIndex // Tem como parâmetro a assinatura de uma função, ou pode por o corpo da função, pode utilizar função lambda
+FindAll  // Retorna uma nova lista. // Tem como parâmetro a assinatura de uma função, ou pode por o corpo da função, pode utilizar função lambda
+Remove   // Recebe como parâmetro o valor que deve ser removido, ou Tem como parâmetro a assinatura de uma função, ou pode por o corpo da função, pode utilizar função lambda
+RemoveAll // Recebe como parâmetro o valor que deve ser removido, ou Tem como parâmetro a assinatura de uma função, ou pode por o corpo da função, pode utilizar função lambda
+RemoveAt  // Recebe como parâmetro a posição
+RemoveRange // Recebe como parâmetro um posição inicial e uma quantidade
+
+
+Exemplos:
+
+lista1.Add("maria");
+lista2.insert(2, "marcos"); // O primeiro parâmetro é a posição pra inserir

@@ -1,0 +1,3 @@
+double[] numeros = new double[10];
+
+Produto[] produtos = new Produto[3];

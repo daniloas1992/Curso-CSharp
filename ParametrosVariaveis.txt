@@ -1,0 +1,13 @@
+public void Somar(params int[] numeros) {
+	for(int i = 0; i < numeros.Length; i++) {
+		...
+	}
+}
+
+
+
+Para chamar o método:
+
+Somar(1, 2, 3)
+Somar(1,2)
+Somar(5,8,2,8,9)

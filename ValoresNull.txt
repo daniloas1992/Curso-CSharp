@@ -1,0 +1,20 @@
+para declarar :
+
+Nullable<double> x = null;
+
+ou
+
+double? x = null;
+
+
+
+Permite utilizar os seguintes métodos:
+x.GetValueOrDefault()
+x.HasValue()
+x.Value() -> Ocorre erro se não houver valor
+
+Com o operador de coalescência nula é possível tentar copiar um Nullable para uma variável que NÃO é Nullable:
+
+double? x = null;
+
+double y = x ?? 0.0;

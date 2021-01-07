@@ -1,0 +1,5 @@
+int[] numeros = new int[] {5, 8, 3, 2, 9};
+
+foreach(int num in numeros) {
+	Console.WriteLine(num);
+}
